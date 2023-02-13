@@ -9,7 +9,7 @@ const NavigationTab = () => {
         <>
         <nav>
             <div>
-            <NavLink to='/'>Page One</NavLink>
+            <NavLink to='/page-one'>Page One</NavLink>
             <NavLink to='/page-two'>Page Two</NavLink>
             <NavLink to='/page-three'>Page Three</NavLink>
             </div>
