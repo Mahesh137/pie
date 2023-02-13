@@ -16,9 +16,10 @@ function LandingPage() {
     <>
     <NavigationTab />
         <Routes>
-          <Route exact path="/" element={<PageOne/>}></Route>
+          <Route exact path="/page-one" element={<PageOne/>}></Route>
           <Route path="/page-two" element={<PageTwo/>}></Route>
           <Route path="/page-three" element={<PageThree/>}></Route>
+          <Route path="*" element={<Navigate to="/page-one" replace />} />
         </Routes>
     </>
   );
